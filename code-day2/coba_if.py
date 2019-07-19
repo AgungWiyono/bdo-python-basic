@@ -2,9 +2,9 @@ kondisi = True
 angka = 12
 
 while kondisi:
-    tebak = input("Tebak sebuah angka : ")
+    tebak = int(input("Tebak sebuah angka : "))
 
-    if not tebak.isdigit():
+    if tebak == None:
         print("Anda tidak memasukkan bilangan bulat yang valid.")
         print("Silahkan ulangi lagi.")
     elif tebak > angka:

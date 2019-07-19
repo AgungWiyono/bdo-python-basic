@@ -1,6 +1,6 @@
 def print_judul(text):
-    print(text.uppercase())
-    print('='*( len(text) if len(text)%5==0 else 5(len(text)//5+1)
+    print(text.upper())
+    print('='* len(text))
 
 def print_isi(daftar_isi):
     for nomor, isi in enumerate(daftar_isi):
